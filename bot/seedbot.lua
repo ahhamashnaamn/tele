@@ -215,35 +215,33 @@ function create_config( )
     "arabic_lock",
     "set",
     "get",
+    "plugins",
     "broadcast",
     "download_media",
     "invite",
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {118333567,75213323,139990182,121069994,121259485},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
+    about_text = [[
+    POBBOT V1.5
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@best_boy 
+@botasad 
+@dawsh_SaLvAdoR
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+wilson
+reza cloner
+sara cloner
+lantan
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@pobbotchanl
+
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -318,6 +316,10 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+
+Our channels
+@pobbotchanl
+
 ]],
     help_text = [[
 Commands list :
@@ -424,6 +426,9 @@ will return group ban list
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
+
+Our channels
+@pobbotchanl
 
 ]]
   }
